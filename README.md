@@ -41,7 +41,7 @@ En resumen, la clase LeerDatos actúa como un lector de archivos que organiza da
  <h3>Distancias</h3>
 <p>La clase Distancias proporciona un método estático para calcular la distancia euclidiana entre dos puntos en un espacio multidimensional. El método eucledianDistance toma dos arreglos de números (point1 y point2) que representan las coordenadas de los puntos, calcula la suma de las diferencias al cuadrado entre cada par de coordenadas correspondientes y devuelve la raíz cuadrada de esa suma, que es la distancia entre los dos puntos.
 
-Propósito en una presentación:
+Propósito:
 
 "Esta clase permite calcular la distancia euclidiana entre dos puntos en un espacio n-dimensional, siendo útil en aplicaciones como análisis de datos, algoritmos de clustering, y otras áreas que requieran medir proximidades o similitudes entre puntos."</p>
 
@@ -65,6 +65,7 @@ Proceso de Agrupamiento (K-Means):
 Los datos se asignan a clústeres en función de la distancia más corta a los centroides.
 Los centroides se recalculan iterativamente como el promedio de los puntos asignados a cada clúster.
 El proceso se repite hasta completar el número máximo de iteraciones.
+
 Resultados:
 
 Al final, se muestran:
@@ -74,10 +75,11 @@ El error total (WCSS - Within-Cluster Sum of Squares).
 Detalles del proceso como la métrica de distancia, iteraciones y cantidad de clústeres.
 Reutilización:
 
+Propósito:
 El programa permite ejecutar el proceso nuevamente con diferentes configuraciones.
 Funcionalidades Adicionales:
 Cálculo de Distancias:
-Se soportan dos tipos de distancias: Euclidiana , definida en la clase Distancias.
+Definida en la clase Distancias.
 Cálculo de Centroides:
 Proporciona un método para calcular el centroide promedio de un grupo de puntos.
 Esta clase es ideal para aplicaciones donde se necesite agrupar datos geoespaciales o clasificar puntos según su proximidad en un espacio bidimensional.</p>
